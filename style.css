@@ -1,0 +1,459 @@
+/*
+Theme Name: PRO SITE
+Author: Frank Wilcox
+Author URI: http://www.frankewilcox.com
+Version: 1.0
+*/
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  padding-top: 120px;
+  color: #000;
+  background-color: #FFF;
+  font: 1.7em 'Sanchez', serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: #006FCB;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.btn-primary {
+  border-radius: 0;
+  padding: 15px 25px;
+  text-transform: uppercase;
+  background-color: #006FCB;
+  border-color: #006FCB;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active  {
+  background-color: #FFF;
+  color: #006FCB;
+  border-color: #006FCB;
+}
+
+/* Search */
+.results {
+  color: #006FCB;
+  font-style: italic;
+}
+
+/* 404 Search Heading */
+.not-found {
+  margin-left: 9%;
+}
+
+/* Skip Link hide from mouse focus chrome*/
+
+#content:focus {
+  outline: none;
+}
+
+/* Header */
+header {
+  border-bottom: 2px solid #000;
+}
+.main-header i {
+  color: #000;
+}
+.main-header {
+  background-color: #FFF;
+}
+
+.main-header .container {
+  position: relative;
+}
+
+.main-header nav.social {
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    background-color: #FFF;
+}
+
+.main-header.affix nav.social {
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.main-header nav.social ul {
+  text-align: center;
+}
+
+nav.social ul li {
+  display: inline-block;
+  margin: .3em;
+}
+
+nav.social ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-header .logo img {
+  -webkit transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+}
+
+.main-header .logo  {
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  margin:  0;
+  padding: 0;
+}
+
+/* Main Navigation */
+
+.navbar {
+  min-height: 67px;
+  font: 1.3em 'Josefin Sans', sans-serif;
+}
+
+.navbar-default {
+  background-color: #FFF;
+  border: none;
+}
+
+.navbar-default .navbar-nav li > a {
+  color: #000;
+  margin-top: 25px;
+}
+
+.navbar-default .navbar-nav li > a:hover {
+  color: #006FCB;
+  text-decoration: underline;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: inherit;
+    color: #006FCB;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #006FCB;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #000;
+}
+
+.navbar-default .navbar-collapse {
+  border-color: transparent;
+}
+
+.navbar-default .navbar-offcanvas {
+  background-color: #FFF;
+  border-left: 1px solid #808080;
+}
+
+/* Featured Images */
+.constrained-container {
+    height: auto;
+    overflow: hidden; /* this hides excess of the image */
+}
+.constrained-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Homepage Content Area */
+
+.home-hero {
+  margin-top: 12px;
+}
+
+.home-content {
+  background: #4C4C4C url('images/dark_fish_skin.png') repeat;
+  color: #fff;
+  padding-bottom: 30px;
+}
+
+.seo-title {
+  text-align: center;
+}
+
+.home-right {
+  margin-top: 20px;
+}
+
+.home-left {
+  margin-top: 20px;
+}
+
+/* Main Content */
+.page-header {
+  background-color: #000;
+  color: #FFF;
+  margin: 12px 0 20px;
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.banner-image img {
+  display: block;
+  margin: auto;
+}
+
+.main-content {
+  margin: 20px auto 20px auto;
+}
+
+.the-content {
+  margin: 20px auto 20px auto;
+}
+
+/* Footer */
+.main-footer {
+  background-color: #000;
+  color: #FFF;
+  text-align: left;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.main-footer a {
+  color: #0A92FF;
+}
+
+.main-footer a:hover {
+  color: #FFF;
+}
+
+.main-footer .footer-left,
+.footer-center,
+.footer-right {
+  margin: 30px 0 30px 0;
+  display: inline-block;
+  vertical-align: top;
+  font-weight: bold;
+}
+
+.main-footer .footer-left i {
+  background-color: #33383B;
+  color: #FFF;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.main-footer .footer-left i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.main-footer .footer-left h3 {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.main-footer .footer-left h3 > span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.main-footer .footer-company-about {
+  line-height: 20px;
+  color: #92999F;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.main-footer .footer-company-about span {
+  display: block;
+  color: #FFF;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.main-footer .footer-icons {
+  margin-top: 25px;
+}
+
+.main-footer .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: #33383B;
+  border-radius: 2px;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+.main-footer nav.footer-nav ul > li {
+  list-style: none;
+  padding-bottom: 15px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.main-footer nav.footer-nav ul > li > a {
+  font-size: 1.4em;
+}
+
+.main-footer .credits {
+  background: #4C4C4C url('images/dark_fish_skin.png') repeat;
+  color: #FFF;
+  font-size: 10px;
+  text-transform: uppercase;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.main-footer .credits .ownership {
+  margin-bottom: 2em;
+}
+
+
+/* Media Queries */
+
+@media (min-width: 768px) {
+  body {
+    padding-top: 100px;
+  }
+
+ .main-header nav.social ul {
+   float: right;
+   text-align: inherit;
+ }
+
+ .main-header.affix nav.social {
+   opacity: 0;
+   height: 0;
+   margin-top: -39px;
+ }
+
+ .main-header .logo {
+   bottom: 10px;
+ }
+
+  .main-header .logo img {
+    height: 70px;
+ }
+
+  .main-header.affix .logo {
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    bottom: 20px;
+ }
+
+  .main-header.affix .logo img {
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    height: 48px;
+ }
+
+  .home-hero {
+    margin-top: 12px;
+  }
+
+  .page-header {
+    margin-top: 40px;
+ }
+
+ .footer-heading {
+   font-size: 17px;
+ }
+
+
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 100px;
+  }
+
+  .main-header .logo {
+    bottom: 10px;
+  }
+
+  .main-header.affix nav.social {
+    margin-top: -48px;
+  }
+
+  .main-header .logo img {
+    height: 100px;
+  }
+
+  .main-header.affix .logo img {
+    height: 56px;
+  }
+
+  .page-header {
+    margin-top: 40px;
+  }
+
+  .home-hero {
+    margin-top: 39px;
+  }
+
+  .home-right {
+    padding-left: 30px;
+  }
+
+  .the-content {
+    min-height: 500px;
+  }
+
+  .main-footer nav.footer-nav {
+    display: block;
+    margin-left: 60px;
+  }
+
+  .main-footer .footer-right .footer-company-about,
+  .footer-icons {
+    margin-left: 150px;
+  }
+
+  .main-footer .credits .ownership {
+    margin-bottom: 0;
+    text-align: left;
+  }
+  .main-footer .credits .authorship {
+    text-align: right;
+  }
+
+
+
+}
+
+@media print {
+  .container {
+    width: auto;
+  }
+}
